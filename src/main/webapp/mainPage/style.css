@@ -1,0 +1,88 @@
+@charset "UTF-8";
+.card{
+    height: 100%;
+}
+.body {
+    padding-top: 56px; /* Adjust based on your navbar height */
+    padding: 20px;
+     
+}
+
+.form{
+	background-image: url('https://file.hstatic.net/1000341756/file/truong_dai_hoc_su_pham_ky_thuat_thanh_pho_ho_chi_minh_66115ec9e0504e0c897a6d08024e127d_2048x2048.jpg'); /* Thay 'duong-dan-den-hinh-anh.jpg' bằng đường dẫn thực tế của ảnh nền */
+        background-size: cover; /* Đảm bảo ảnh nền che phủ hoàn toàn kích thước của container */
+        background-position: center; /* Đặt ảnh nền ở giữa container */
+}
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.ctnGioiThieu{
+		text-align: center;
+    	padding: 5rem 0;
+     /*   background-image: url('https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg');  Thay 'duong-dan-den-hinh-anh.jpg' bằng đường dẫn thực tế của ảnh nền 
+        background-size: cover;  Đảm bảo ảnh nền che phủ hoàn toàn kích thước của container 
+        background-position: center;  Đặt ảnh nền ở giữa container */
+        color: white; /* Điều chỉnh màu chữ để phù hợp với ảnh nền */
+ /* Điều chỉnh khoảng trắng xung quanh văn bản */
+    /* Nếu bạn muốn điều chỉnh kiểu hiển thị của văn bản trong container */
+}
+.ctnGioiThieu h1,
+    .ctnGioiThieu p {
+        text-shadow: 2px 2px 4px #000000; /* Hiệu ứng đổ bóng văn bản */
+    }
+.space-between {
+            margin-bottom: 50px; /* Điều chỉnh giá trị này theo ý muốn của bạn */
+        }
+.container-fluid{
+    background: linear-gradient(to bottom, #04195f, rgb(101, 187, 215));
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+
+.card-header {
+  /* Format Dropdowns in Card Headings */
+  .dropdown {
+    line-height: 1;
+  }
+
+  .dropdown-menu {
+    line-height: 1.5;
+  }
+}
+
+/* Collapsable Card Styling */
+.card-header[data-toggle="collapse"] {
+  text-decoration: none;
+  position: relative;
+  padding: 0.75rem 3.25rem 0.75rem 1.25rem;
+}
+
+.card-header[data-toggle="collapse"]::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: 1.725rem;
+  line-height: 51px;
+  font-weight: 900;
+  content: '\f107';
+  font-family: 'Font Awesome 5 Free';
+  color: gray; /* Replace with the actual color */
+}
+
+.card-header[data-toggle="collapse"].collapsed {
+  border-radius: gray; /* Replace with the actual value */
+}
+
+.card-header[data-toggle="collapse"].collapsed::after {
+  content: '\f105';
+}
+
+

@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+
+.body {
+    padding-top: 56px; /* Adjust based on your navbar height */
+    padding: 20px;
+}
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 0rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Đảm bảo Navbar ở trên cùng */
+}
+.bg-col{
+    background: linear-gradient(to bottom, #00558c,#0187c6);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav.navbar {
+    background: linear-gradient(to bottom, #00558c, #0187c6);
+}
+
+nav.navbar a.navbar-brand,
+nav.navbar a.nav-link {
+    color: #fff; 
+}
+.nav-item{
+	top: px;
+}
